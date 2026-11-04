@@ -1,11 +1,15 @@
 //rafc + TAB o ENTER
+import { Header } from "./components/Header";
+import { VacanciesPage } from "./pages/VacanciesPage";
 
 const App = () => {
   return (
-    <main>
-      <h1>TalentHub</h1>
-      <p>Paltaforma de gestión de vacantes y postulaciones</p>
-    </main>
+    <div>
+      <Header/>
+      <main className="container">
+        <VacanciesPage/>
+      </main>
+    </div>
   )
 }
 
