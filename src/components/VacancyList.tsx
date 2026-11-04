@@ -1,5 +1,6 @@
 import type { Vacancy } from "../types/vacancy";
 import { VacancyCard } from "./VacancyCard";
+import './VacancyList.css';
 
 //Definr las propiedades del componente
 interface VacancyListProps{

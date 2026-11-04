@@ -2,6 +2,9 @@ import { useState } from 'react';
 import type { Vacancy } from '../types/vacancy';
 import './VacancyCard.css';
 
+
+
+
 //rafc + TAB o ENTER
 
 //interface para los props (propiedades): describir los datos que recibe el componente.
