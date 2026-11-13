@@ -2,7 +2,8 @@
 export interface Vacancy {
     id: number;
     title: string;
-    company: string;
+    companyId: string;
+    companyName: string;
     modality: string;
     salary: number;
 }
